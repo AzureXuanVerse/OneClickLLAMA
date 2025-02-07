@@ -57,11 +57,11 @@
   
 ## 应用设置
 - 根据你的需求和使用的应用查看对应设置教程
- - 搭配 [LinguaGacha](https://github.com/neavo/LinguaGacha) 进行日中翻译 [Wiki - LinguaGacha_Sakura](https://github.com/neavo/OneClickLLAMA/wiki/LinguaGacha_Sakura)
- - 搭配 [LinguaGacha](https://github.com/neavo/LinguaGacha) 进行其他语言翻译 [Wiki - LinguaGacha](https://github.com/neavo/OneClickLLAMA/wiki/LinguaGacha)
- - 搭配 [AiNiee](https://github.com/NEKOparapa/AiNiee) 进行日中翻译 [Wiki - AiNiee_Sakura](https://github.com/neavo/OneClickLLAMA/wiki/AiNiee_Sakura)
- - 搭配 [轻小说翻译机器人（绿站）](https://books.fishhawk.top/) 进行日中翻译 [Wiki - AutoNovel_Sakura](https://github.com/neavo/OneClickLLAMA/wiki/AutoNovel_Sakura)
- - 搭配 [KeywordGacha](https://github.com/neavo/KeywordGacha) 进行文本分析 [Wiki - KeywordGacha](https://github.com/neavo/OneClickLLAMA/wiki/KeywordGacha)
+  - 搭配 [LinguaGacha](https://github.com/neavo/LinguaGacha) 进行日中翻译 [Wiki - LinguaGacha_Sakura](https://github.com/neavo/OneClickLLAMA/wiki/LinguaGacha_Sakura)
+  - 搭配 [LinguaGacha](https://github.com/neavo/LinguaGacha) 进行其他语言翻译 [Wiki - LinguaGacha](https://github.com/neavo/OneClickLLAMA/wiki/LinguaGacha)
+  - 搭配 [AiNiee](https://github.com/NEKOparapa/AiNiee) 进行日中翻译 [Wiki - AiNiee_Sakura](https://github.com/neavo/OneClickLLAMA/wiki/AiNiee_Sakura)
+  - 搭配 [轻小说翻译机器人（绿站）](https://books.fishhawk.top/) 进行日中翻译 [Wiki - AutoNovel_Sakura](https://github.com/neavo/OneClickLLAMA/wiki/AutoNovel_Sakura)
+  - 搭配 [KeywordGacha](https://github.com/neavo/KeywordGacha) 进行文本分析 [Wiki - KeywordGacha](https://github.com/neavo/OneClickLLAMA/wiki/KeywordGacha)
 
 ## 常见问题
 - 什么是 `爆显存`，会导致什么问题？

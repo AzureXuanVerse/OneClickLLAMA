@@ -5,7 +5,7 @@
   - [GalTransl](https://github.com/xd2333/GalTransl)
   - [LinguaGacha](https://github.com/neavo/LinguaGacha)
   - [KeywordGacha](https://github.com/neavo/KeywordGacha)
-  - [绿站（轻小说翻译机器人）](https://books.fishhawk.top/workspace/sakura) 等翻译器的服务器端使用
+  - [绿站（轻小说翻译机器人）](https://books.fishhawk.top/workspace/sakura)
 - 配合本页中的各应用的设置指南，可以得到最优化的性能，相较于默认设置可提升 3-5 倍
 
 ## 要求

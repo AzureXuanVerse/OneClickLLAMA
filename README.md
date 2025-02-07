@@ -1,26 +1,53 @@
-## SakuraLLMServer
-- 运行 [SakuraLLM](https://github.com/SakuraLLM/SakuraLLM) 轻小说翻译模型的服务器端一键包
-- 可作为 [AiNiee](https://github.com/NEKOparapa/AiNiee)、[GalTransl](https://github.com/xd2333/GalTransl)、[绿站（轻小说翻译机器人）](https://books.fishhawk.top/workspace/sakura) 等翻译器的服务器端使用
-- 配合本页中的各翻译器的设置指南，可以得到最优化的性能，相较于默认设置可提升 3-5 倍
+## OneClickLLAMA_20250207
+- 一键运行 [Qwen2.5](https://github.com/QwenLM/Qwen2.5) [SakuraLLM](https://github.com/SakuraLLM/SakuraLLM)  等本地 LLM 模型
+- 可与众多支持 OpenAI 格式的翻译器、分析器应用搭配使用，包括但是不限于：
+  - [AiNiee](https://github.com/NEKOparapa/AiNiee)
+  - [GalTransl](https://github.com/xd2333/GalTransl)
+  - [LinguaGacha](https://github.com/neavo/LinguaGacha)
+  - [KeywordGacha](https://github.com/neavo/KeywordGacha)
+  - [绿站（轻小说翻译机器人）](https://books.fishhawk.top/workspace/sakura) 等翻译器的服务器端使用
+- 配合本页中的各应用的设置指南，可以得到最优化的性能，相较于默认设置可提升 3-5 倍
 
 ## 要求
-- 至少 8G 显存的 Nvidia 独立显卡
+- 至少 8G 显存的独立显卡，NVIDIA 显卡最佳，其他显卡很慢
 - 确保安装了 `最新版本` 的显卡驱动程序
 
 ## 步骤
-- 从 [发布页](https://github.com/neavo/SakuraLLMServer/releases) 下载最新版本的 `SakuraLLMServer` 并解压缩
-- 根据显存大小下载适合的模型并放入 `SakuraLLMServer` 文件夹
+- 从 [发布页](https://github.com/neavo/OneClickLLAMA/releases) 下载最新版本的 `OneClickLLAMA` 并解压缩
+  - `OneClickLLAMA_NV` 是 NVIDIA 专用的版本
+  - `OneClickLLAMA_VULKAN` 是 所有显卡 通用的版本
+- 根据用途和显存大小下载适合的模型并放入 `OneClickLLAMA` 文件夹
 
-| 显存大小         | 模型规模     | 下载链接                                                  |
-|:---------------:|:-----------:|:---------------------------------------------------------:|
-| 8G/10G          | 7B          | [sakura-7b-qwen2.5-v1.0-iq4xs.gguf](https://huggingface.co/SakuraLLM/Sakura-7B-Qwen2.5-v1.0-GGUF/blob/main/sakura-7b-qwen2.5-v1.0-iq4xs.gguf) |
-| 11G/12G/16G     | 14B         | [sakura-14b-qwen2.5-v1.0-iq4xs.gguf](https://huggingface.co/SakuraLLM/Sakura-14B-Qwen2.5-v1.0-GGUF/blob/main/sakura-14b-qwen2.5-v1.0-iq4xs.gguf) |
-| 24G             | 14B         | [sakura-14b-qwen2.5-v1.0-q6k.gguf](https://huggingface.co/SakuraLLM/Sakura-14B-Qwen2.5-v1.0-GGUF/blob/main/sakura-14b-qwen2.5-v1.0-q6k.gguf) |
+- 日文翻译到中文
+  
+| 显存大小         | 模型规模    | 启动脚本          | 下载链接                                                   |
+|:---------------:|:-----------:|:----------------:|:---------------------------------------------------------:|
+| 8G/10G          | 7B          | 01_1280_NP16.bat | [sakura-7b-qwen2.5-v1.0-iq4xs.gguf](https://huggingface.co/SakuraLLM/Sakura-7B-Qwen2.5-v1.0-GGUF/blob/main/sakura-7b-qwen2.5-v1.0-iq4xs.gguf) |
+| 11G             | 14B         | 01_1280_NP4.bat  | [sakura-14b-qwen2.5-v1.0-iq4xs.gguf](https://huggingface.co/SakuraLLM/Sakura-14B-Qwen2.5-v1.0-GGUF/blob/main/sakura-14b-qwen2.5-v1.0-iq4xs.gguf) |
+| 12G             | 14B         | 01_1280_NP6.bat  | [sakura-14b-qwen2.5-v1.0-iq4xs.gguf](https://huggingface.co/SakuraLLM/Sakura-14B-Qwen2.5-v1.0-GGUF/blob/main/sakura-14b-qwen2.5-v1.0-iq4xs.gguf) |
+| 16G             | 14B         | 01_1280_NP16.bat | [sakura-14b-qwen2.5-v1.0-iq4xs.gguf](https://huggingface.co/SakuraLLM/Sakura-14B-Qwen2.5-v1.0-GGUF/blob/main/sakura-14b-qwen2.5-v1.0-iq4xs.gguf) |
+| 24G             | 14B         | 01_1280_NP16.bat | [sakura-14b-qwen2.5-v1.0-q6k.gguf](https://huggingface.co/SakuraLLM/Sakura-14B-Qwen2.5-v1.0-GGUF/blob/main/sakura-14b-qwen2.5-v1.0-q6k.gguf) |
+
+- 其他语言翻译到中文
+
+| 显存大小         | 模型规模    | 启动脚本          | 下载链接                                                   |
+|:---------------:|:-----------:|:----------------:|:---------------------------------------------------------:|
+| 8G/10G          | 7B          | 01_1280_NP16.bat | [Qwen2.5-7B-Instruct-IQ4_XS.gguf](https://huggingface.co/bartowski/Qwen2.5-7B-Instruct-GGUF/blob/main/Qwen2.5-7B-Instruct-IQ4_XS.gguf) |
+| 11G             | 14B         | 01_1280_NP4.bat  | [Qwen2.5-14B-Instruct-IQ4_XS.gguf](https://huggingface.co/bartowski/Qwen2.5-14B-Instruct-GGUF/blob/main/Qwen2.5-14B-Instruct-IQ4_XS.gguf) |
+| 12G             | 14B         | 01_1280_NP6.bat  | [Qwen2.5-14B-Instruct-IQ4_XS.gguf](https://huggingface.co/bartowski/Qwen2.5-14B-Instruct-GGUF/blob/main/Qwen2.5-14B-Instruct-IQ4_XS.gguf) |
+| 16G             | 14B         | 01_1280_NP16.bat | [Qwen2.5-14B-Instruct-IQ4_XS.gguf](https://huggingface.co/bartowski/Qwen2.5-14B-Instruct-GGUF/blob/main/Qwen2.5-14B-Instruct-IQ4_XS.gguf) |
+| 24G             | 14B         | 01_1280_NP16.bat | [Qwen2.5-14B-Instruct-Q6_K.gguf](https://huggingface.co/bartowski/Qwen2.5-14B-Instruct-GGUF/blob/main/Qwen2.5-14B-Instruct-Q6_K.gguf) |
+
+- 搭配 KeywordGacha 抓取实体词语表
+
+| 显存大小                         | 模型规模    | 启动脚本        | 下载链接                                                   |
+|:-------------------------------:|:-----------:|:--------------:|:---------------------------------------------------------:|
+| 8G/10G/11G/12G/16G/24G          | 7B          | 01_2k_NP16.bat | [Qwen2.5-7B-Instruct-IQ4_XS.gguf](https://huggingface.co/bartowski/Qwen2.5-7B-Instruct-GGUF/blob/main/Qwen2.5-7B-Instruct-IQ4_XS.gguf) |
 
 ## 启动
 - 现在你的文件结构应该类似于：
 ```
-  SakuraLLMServer\llama\...
+  OneClickLLAMA\llama\...
                     \00_Core.bat
                     \01_1280_NP16.bat
                     \sakura-14b-qwen2.5-v1.0-iq4xs.gguf
@@ -28,13 +55,6 @@
 ```
 - 根据 `你的显存和模型的搭配组合` 选择对应的启动脚本，双击启动即可
   
-| 显存大小         | 模型规模     | 启动脚本             |
-|:---------------:|:-----------:|:--------------------:|
-| 8G/10G          | 7B          | 01_1280_NP16.bat |
-| 11G             | 14B         | 01_1280_NP4.bat |
-| 12G             | 14B         | 01_1280_NP6.bat |
-| 16G/24G         | 14B         | 01_1280_NP16.bat |
-
 ## 设置 AiNiee 
 - 确保安装了 `最新版本（版本号 >= 5.2）` 的 [AiNiee](https://github.com/NEKOparapa/AiNiee) 应用
 - 启动应用，设置以下选项，其余设置保持默认即可：：
@@ -46,8 +66,7 @@
 | 项目设置 - 接口名称 | SakuraLLM |
 | 基础设置 - 翻译任务切分模式 | Token 模式 |
 | 基础设置 - 翻译任务的最大 Tokens 数 | 384 |
-| 基础设置 - 每个翻译任务携带的参考上文行数（翻译 `小说` 时） | 3 |
-| 基础设置 - 每个翻译任务携带的参考上文行数（翻译 `其他内容` 时） | 0 |
+| 基础设置 - 每个翻译任务携带的参考上文行数 | 0 |
 | 基础设置 - 同时执行的翻译任务数量 | 启动脚本名称中 NP 后的数字 |
 | 基础设置 - 翻译流程的最大轮次 | 20 |
 | 高级设置 - 保留句内换行符 | 启用 |

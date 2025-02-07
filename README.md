@@ -55,45 +55,13 @@
 ```
 - 根据 `你的显存和模型的搭配组合` 选择对应的启动脚本，双击启动即可
   
-## 设置 AiNiee 
-- 确保安装了 `最新版本（版本号 >= 5.2）` 的 [AiNiee](https://github.com/NEKOparapa/AiNiee) 应用
-- 启动应用，设置以下选项，其余设置保持默认即可：：
-  
-| 选项 | 设置 |
-|------|:----:|
-| 接口管理 - SakuraLLM - 编辑接口 - 接口地址 | http://127.0.0.1:8080 |
-| 接口管理 - SakuraLLM - 编辑接口 - 模型名称 | Sakura-v1.0 |
-| 项目设置 - 接口名称 | SakuraLLM |
-| 基础设置 - 翻译任务切分模式 | Token 模式 |
-| 基础设置 - 翻译任务的最大 Tokens 数 | 384 |
-| 基础设置 - 每个翻译任务携带的参考上文行数 | 0 |
-| 基础设置 - 同时执行的翻译任务数量 | 启动脚本名称中 NP 后的数字 |
-| 基础设置 - 翻译流程的最大轮次 | 20 |
-| 高级设置 - 保留句内换行符 | 启用 |
-| 高级设置 - 保留首尾代码段 | 启用 |
-
-## 设置 GalTransl（TODO）
-
-## 设置 轻小说翻译机器人（绿站）
-- 本地翻译
-  - 打开 [Sakura 工作区](https://books.fishhawk.top/workspace/sakura) 页面
-  - 在左侧 `翻译器` 区域
-    - 点击 `添加翻译器`，添加若干个翻译器
-    - 翻译器的数量一般应等于 `脚本名称中 NP 后的数字`
-    - 翻译器名字随意，链接为 [http://127.0.0.1:8080](http://127.0.0.1:8080)，其他保持默认
-  - 在右侧 `本地翻译设置` 区域，将任务均分数设置为翻译器的数量
-  - 在右侧 `本地小说` 区域，添加要翻译的日文文本文件
-  - 依次点击所有 `翻译器` 后的启动按钮即可开始 `多线程翻译`
-  - 翻译完毕后，在右侧 `本地小说` 区域点击 `阅读` 按钮开始阅读
-- 在线翻译（8G/10G 配置暂时无法使用在线翻译上传作品）
-  - 打开 [Sakura 工作区](https://books.fishhawk.top/workspace/sakura) 页面
-    - 在左侧 `翻译器` 区域
-    - 点击 `添加翻译器`，添加若干个翻译器
-    - 翻译器的数量一般应等于 `脚本名称中 NP 后的数字`
-    - 翻译器名字随意，链接为 [http://127.0.0.1:8080](http://127.0.0.1:8080)，其他保持默认
-  - 打开你想要翻译的小说页面
-    - 在页面中部的 `范围` 区域，将任务均分数设置为翻译器的数量，点击 `排队 Sakura` 按钮
-  - 打开 [Sakura 工作区](https://books.fishhawk.top/workspace/sakura) 页面，依次点击所有 `翻译器` 后的启动按钮即可开始 `多线程翻译`
+## 应用设置
+- 根据你的需求和使用的应用查看对应设置教程
+ - 搭配 [LinguaGacha](https://github.com/neavo/LinguaGacha) 进行日中翻译 [Wiki - LinguaGacha_Sakura](https://github.com/neavo/OneClickLLAMA/wiki/LinguaGacha_Sakura)
+ - 搭配 [LinguaGacha](https://github.com/neavo/LinguaGacha) 进行其他语言翻译 [Wiki - LinguaGacha](https://github.com/neavo/OneClickLLAMA/wiki/LinguaGacha)
+ - 搭配 [AiNiee](https://github.com/NEKOparapa/AiNiee) 进行日中翻译 [Wiki - AiNiee_Sakura](https://github.com/neavo/OneClickLLAMA/wiki/AiNiee_Sakura)
+ - 搭配 [轻小说翻译机器人（绿站）](https://books.fishhawk.top/) 进行日中翻译 [Wiki - AutoNovel_Sakura](https://github.com/neavo/OneClickLLAMA/wiki/AutoNovel_Sakura)
+ - 搭配 [KeywordGacha](https://github.com/neavo/KeywordGacha) 进行文本分析 [Wiki - KeywordGacha](https://github.com/neavo/OneClickLLAMA/wiki/KeywordGacha)
 
 ## 常见问题
 - 什么是 `爆显存`，会导致什么问题？

@@ -3,8 +3,8 @@
 - 可与众多支持 OpenAI 格式的翻译器、分析器应用搭配使用，包括但是不限于：
   - [AiNiee](https://github.com/NEKOparapa/AiNiee)
   - [GalTransl](https://github.com/xd2333/GalTransl)
-  - [LinguaGacha](https://github.com/neavo/LinguaGacha)
-  - [KeywordGacha](https://github.com/neavo/KeywordGacha)
+  - [LinguaGacha](https://github.com/neavo/LinguaGacha) `推荐` 👈👈
+  - [KeywordGacha](https://github.com/neavo/KeywordGacha) `推荐` 👈👈
   - [绿站（轻小说翻译机器人）](https://books.fishhawk.top/workspace/sakura)
 - 配合本页中的各应用的设置指南，可以得到最优化的性能，相较于默认设置可提升 3-5 倍
 

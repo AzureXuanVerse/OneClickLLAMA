@@ -28,7 +28,7 @@
 | 16G             | 14B         | 01_1280_NP16.bat | [sakura-14b-qwen2.5-v1.0-iq4xs.gguf](https://huggingface.co/SakuraLLM/Sakura-14B-Qwen2.5-v1.0-GGUF/blob/main/sakura-14b-qwen2.5-v1.0-iq4xs.gguf) |
 | 24G             | 14B         | 01_1280_NP16.bat | [sakura-14b-qwen2.5-v1.0-q6k.gguf](https://huggingface.co/SakuraLLM/Sakura-14B-Qwen2.5-v1.0-GGUF/blob/main/sakura-14b-qwen2.5-v1.0-q6k.gguf) |
 
-- 其他语言翻译到中文
+- 其他语言翻译到中文（7B 效果很差，14B 勉勉强强，最好使用在线接口）
 
 | 显存大小         | 模型规模    | 启动脚本          | 下载链接                                                   |
 |:---------------:|:-----------:|:----------------:|:---------------------------------------------------------:|

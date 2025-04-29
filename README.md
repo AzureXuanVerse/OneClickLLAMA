@@ -1,5 +1,5 @@
 ## OneClickLLAMA
-- 一键运行 [Qwen2.5](https://github.com/QwenLM/Qwen2.5) [SakuraLLM](https://github.com/SakuraLLM/SakuraLLM)  等本地 LLM 模型
+- 一键运行 [Qwen3](https://github.com/QwenLM/Qwen3) [SakuraLLM](https://github.com/SakuraLLM/SakuraLLM)  等本地 LLM 模型
 - 可与众多支持 OpenAI 格式的翻译器、分析器应用搭配使用，包括但是不限于：
   - [LinguaGacha](https://github.com/neavo/LinguaGacha) `使用 AI 能力一键翻译小说、游戏、字幕的次世代翻译器` `推荐` 👈👈
   - [KeywordGacha](https://github.com/neavo/KeywordGacha) `使用 AI 能力一键生成术语表的次世代翻译辅助工具` `推荐` 👈👈

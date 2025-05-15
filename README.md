@@ -25,7 +25,7 @@
 | 8G/10G          | 7B          | 01_2K_NP8.bat  | [sakura-7b-qwen2.5-v1.0-iq4xs.gguf](https://huggingface.co/SakuraLLM/Sakura-7B-Qwen2.5-v1.0-GGUF/blob/main/sakura-7b-qwen2.5-v1.0-iq4xs.gguf) |
 | 11G             | 14B         | 01_2K_NP3.bat  | [sakura-14b-qwen2.5-v1.0-iq4xs.gguf](https://huggingface.co/SakuraLLM/Sakura-14B-Qwen2.5-v1.0-GGUF/blob/main/sakura-14b-qwen2.5-v1.0-iq4xs.gguf) |
 | 12G             | 14B         | 01_2K_NP6.bat  | [sakura-14b-qwen2.5-v1.0-iq4xs.gguf](https://huggingface.co/SakuraLLM/Sakura-14B-Qwen2.5-v1.0-GGUF/blob/main/sakura-14b-qwen2.5-v1.0-iq4xs.gguf) |
-| 16G             | 14B         | 01_2K_NP16.bat | [sakura-14b-qwen2.5-v1.0-iq4xs.gguf](https://huggingface.co/SakuraLLM/Sakura-14B-Qwen2.5-v1.0-GGUF/blob/main/sakura-14b-qwen2.5-v1.0-iq4xs.gguf) |
+| 16G             | 14B         | 01_2K_NP12.bat | [sakura-14b-qwen2.5-v1.0-iq4xs.gguf](https://huggingface.co/SakuraLLM/Sakura-14B-Qwen2.5-v1.0-GGUF/blob/main/sakura-14b-qwen2.5-v1.0-iq4xs.gguf) |
 | 24G             | 14B         | 01_2K_NP16.bat | [sakura-14b-qwen2.5-v1.0-q6k.gguf](https://huggingface.co/SakuraLLM/Sakura-14B-Qwen2.5-v1.0-GGUF/blob/main/sakura-14b-qwen2.5-v1.0-q6k.gguf) |
 
 - 其他语言之间的互译（8B 效果很差，14B 勉勉强强，最好使用在线API）
@@ -33,11 +33,11 @@
 
 | 显存大小         | 模型规模    | 启动脚本        | 下载链接                                                   |
 |:---------------:|:-----------:|:--------------:|:---------------------------------------------------------:|
-| 8G/10G          | 7B          | 01_2K_NP8.bat  | [Qwen3-8B-IQ4_XS.gguf](https://huggingface.co/bartowski/Qwen_Qwen3-8B-GGUF/blob/main/Qwen_Qwen3-8B-IQ4_XS.gguf) |
-| 11G             | 14B         | 01_2K_NP3.bat  | [Qwen3-14B-IQ4_XS.gguf](https://huggingface.co/bartowski/Qwen_Qwen3-14B-GGUF/blob/main/Qwen_Qwen3-14B-IQ4_XS.gguf) |
-| 12G             | 14B         | 01_2K_NP6.bat  | [Qwen3-14B-IQ4_XS.gguf](https://huggingface.co/bartowski/Qwen_Qwen3-14B-GGUF/blob/main/Qwen_Qwen3-14B-IQ4_XS.gguf) |
-| 16G             | 14B         | 01_2K_NP16.bat | [Qwen3-14B-IQ4_XS.gguf](https://huggingface.co/bartowski/Qwen_Qwen3-14B-GGUF/blob/main/Qwen_Qwen3-14B-IQ4_XS.gguf) |
-| 24G             | 14B         | 01_2K_NP16.bat | [Qwen3-14B-IQ4_XS.gguf](https://huggingface.co/bartowski/Qwen_Qwen3-14B-GGUF/blob/main/Qwen_Qwen3-14B-IQ4_XS.gguf) |
+| 8G/10G          | 8B          | 01_2K_NP8.bat  | [Qwen3-8B-IQ4_XS.gguf](https://huggingface.co/unsloth/Qwen3-8B-GGUF/blob/main/Qwen3-8B-IQ4_XS.gguf) |
+| 11G             | 14B         | 01_2K_NP3.bat  | [Qwen3-14B-IQ4_XS.gguf](https://huggingface.co/unsloth/Qwen3-14B-GGUF/blob/main/Qwen3-14B-IQ4_XS.gguf) |
+| 12G             | 14B         | 01_2K_NP6.bat  | [Qwen3-14B-IQ4_XS.gguf](https://huggingface.co/unsloth/Qwen3-14B-GGUF/blob/main/Qwen3-14B-IQ4_XS.gguf) |
+| 16G             | 14B         | 01_2K_NP12.bat | [Qwen3-14B-IQ4_XS.gguf](https://huggingface.co/unsloth/Qwen3-14B-GGUF/blob/main/Qwen3-14B-IQ4_XS.gguf) |
+| 24G             | 14B         | 01_2K_NP16.bat | [Qwen3-14B-Q6_K.gguf](https://huggingface.co/unsloth/Qwen3-14B-GGUF/blob/main/Qwen3-14B-Q6_K.gguf) |
 
 ## 启动
 - 现在你的文件结构应该类似于：

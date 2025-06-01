@@ -18,12 +18,12 @@
   - `OneClickLLAMA_VULKAN` 是 所有显卡 通用的版本
 - 根据用途和显存大小下载适合的模型并放入 `OneClickLLAMA` 文件夹
 
+## 对应表格
 - 日文翻译到中文
   
 | 显存大小         | 模型规模    | 启动脚本        | 下载链接                                                   |
 |:---------------:|:-----------:|:--------------:|:---------------------------------------------------------:|
-| 8G/10G          | 7B          | 01_2K_NP6.bat  | [sakura-7b-qwen2.5-v1.0-iq4xs.gguf](https://huggingface.co/SakuraLLM/Sakura-7B-Qwen2.5-v1.0-GGUF/blob/main/sakura-7b-qwen2.5-v1.0-iq4xs.gguf) |
-| 11G             | 14B         | 01_2K_NP3.bat  | [sakura-14b-qwen2.5-v1.0-iq4xs.gguf](https://huggingface.co/SakuraLLM/Sakura-14B-Qwen2.5-v1.0-GGUF/blob/main/sakura-14b-qwen2.5-v1.0-iq4xs.gguf) |
+| 8G/10G/11G      | 7B          | 01_2K_NP6.bat  | [sakura-7b-qwen2.5-v1.0-iq4xs.gguf](https://huggingface.co/SakuraLLM/Sakura-7B-Qwen2.5-v1.0-GGUF/blob/main/sakura-7b-qwen2.5-v1.0-iq4xs.gguf) |
 | 12G             | 14B         | 01_2K_NP6.bat  | [sakura-14b-qwen2.5-v1.0-iq4xs.gguf](https://huggingface.co/SakuraLLM/Sakura-14B-Qwen2.5-v1.0-GGUF/blob/main/sakura-14b-qwen2.5-v1.0-iq4xs.gguf) |
 | 16G             | 14B         | 01_2K_NP12.bat | [sakura-14b-qwen2.5-v1.0-iq4xs.gguf](https://huggingface.co/SakuraLLM/Sakura-14B-Qwen2.5-v1.0-GGUF/blob/main/sakura-14b-qwen2.5-v1.0-iq4xs.gguf) |
 | 24G             | 14B         | 01_2K_NP16.bat | [sakura-14b-qwen2.5-v1.0-q6k.gguf](https://huggingface.co/SakuraLLM/Sakura-14B-Qwen2.5-v1.0-GGUF/blob/main/sakura-14b-qwen2.5-v1.0-q6k.gguf) |
@@ -33,8 +33,7 @@
 
 | 显存大小         | 模型规模    | 启动脚本        | 下载链接                                                   |
 |:---------------:|:-----------:|:--------------:|:---------------------------------------------------------:|
-| 8G/10G          | 8B          | 01_2K_NP6.bat  | [Qwen3-8B-IQ4_XS.gguf](https://huggingface.co/unsloth/Qwen3-8B-GGUF/blob/main/Qwen3-8B-IQ4_XS.gguf) |
-| 11G             | 14B         | 01_2K_NP3.bat  | [Qwen3-14B-IQ4_XS.gguf](https://huggingface.co/unsloth/Qwen3-14B-GGUF/blob/main/Qwen3-14B-IQ4_XS.gguf) |
+| 8G/10G/11G      | 8B          | 01_2K_NP6.bat  | [Qwen3-8B-IQ4_XS.gguf](https://huggingface.co/unsloth/Qwen3-8B-GGUF/blob/main/Qwen3-8B-IQ4_XS.gguf) |
 | 12G             | 14B         | 01_2K_NP6.bat  | [Qwen3-14B-IQ4_XS.gguf](https://huggingface.co/unsloth/Qwen3-14B-GGUF/blob/main/Qwen3-14B-IQ4_XS.gguf) |
 | 16G             | 14B         | 01_2K_NP12.bat | [Qwen3-14B-IQ4_XS.gguf](https://huggingface.co/unsloth/Qwen3-14B-GGUF/blob/main/Qwen3-14B-IQ4_XS.gguf) |
 | 24G             | 14B         | 01_2K_NP16.bat | [Qwen3-14B-Q6_K.gguf](https://huggingface.co/unsloth/Qwen3-14B-GGUF/blob/main/Qwen3-14B-Q6_K.gguf) |

@@ -28,8 +28,10 @@
 | 16G             | 14B         | 01_2K_NP12.bat | [sakura-14b-qwen2.5-v1.0-iq4xs.gguf](https://huggingface.co/SakuraLLM/Sakura-14B-Qwen2.5-v1.0-GGUF/blob/main/sakura-14b-qwen2.5-v1.0-iq4xs.gguf) |
 | 24G             | 14B         | 01_2K_NP16.bat | [sakura-14b-qwen2.5-v1.0-q6k.gguf](https://huggingface.co/SakuraLLM/Sakura-14B-Qwen2.5-v1.0-GGUF/blob/main/sakura-14b-qwen2.5-v1.0-q6k.gguf) |
 
-- 其他语言之间的互译（8B 效果很差，14B 勉勉强强，最好使用在线API）
-- 搭配 KeywordGacha 抓取实体词语表
+- 其他用途，包括：
+  - 其他语言之间的互译
+  - 搭配 KeywordGacha 抓取实体词语表
+  - 注意：`8B` 效果很差，`14B` 勉勉强强，但是即使 `14B` 模型效果也远差于任何在线 API
 
 | 显存大小         | 模型规模    | 启动脚本        | 下载链接                                                   |
 |:---------------:|:-----------:|:--------------:|:---------------------------------------------------------:|
